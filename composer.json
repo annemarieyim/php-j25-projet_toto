@@ -1,0 +1,12 @@
+{
+    "name": "etudiant/php-j25-projet_toto",
+    "authors": [
+        {
+            "name": "AnneMarieYim",
+            "email": "annemarie_yim@yahoo.fr"
+        }
+    ],
+    "require": {
+        "whatsma/zodiacsign": "dev-master"
+    }
+}
