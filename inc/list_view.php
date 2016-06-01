@@ -24,6 +24,7 @@
 				<td>Nationalité</td>
 				<td>Statut marital</td>
 				<td>Date de naissance</td>
+				<td>Editer</td>
 			</tr>
 		</thead>
 		<tbody>
@@ -36,6 +37,7 @@
 				<td><?= $currentEtudiant['cou_name'] ?></td>
 				<td><?= $currentEtudiant['mar_name'] ?></td>
 				<td><?= $currentEtudiant['birthdate'] ?></td>
+				<td><a href="edit.php?ses_id=<?=$currentEtudiant['ses_id']?>">Editer </a></td>
 			</tr>
 <?php endforeach; ?>
 		</tbody>
@@ -57,3 +59,4 @@
 <button>
 	<a href="index.php?ses_id=<?=$currentEtudiant['ses_id']?>">Retour à la liste des sessions</a>
 </button>	
+
